@@ -10,8 +10,18 @@
   height: 80px;
 }
 
+h2{
+  font-weight:bold;
+}
+h1{
+  font-weight: bold;
+}
+p{
+  font-size: 26px;
+  text-indent: 50px;
+  font-family: sans-serif;
 
-
+}
 img{
   height: 80px;
   width: 70%;
@@ -48,19 +58,25 @@ img{
   transition: .2s, .6s;
 }
 
+.link:focus{
+  text-decoration: none;
+  color: #8a6d3b;
+}
 .link:hover{
   text-decoration: none;
   color:#c7cacc;
 
 
 }
-.main{
+.section{
   background: #aca9a9;
   border-radius: 10px;
 }
+
 .sidebar-menu{
   list-style: none;
   margin-top: 40px;
+  padding: 0;
 }
 
 .sidebar-link {
@@ -85,7 +101,10 @@ img{
   text-decoration: none;
   color:black;
 }
-
+.link-side:focus{
+  text-decoration: none;
+  color: #8a6d3b;
+}
 h1{
   font-size: 35px;
 }
@@ -125,13 +144,13 @@ textarea{
 background: #b8bbbc;
 }
 
-.forma{
+form{
   font-size: 16px;
   margin-top: 20px;
 
 }
 
-.footer{
+footer{
   height: 204px;
   border-radius: 10px;
   background: #e3e0e0;
